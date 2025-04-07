@@ -1,7 +1,7 @@
 # GoyoHome_App
 
 층간소음 노이즈캔슬링 기기 개발을 위한 프로젝트입니다.
-프론트엔드는 **Android Studio**로 개발하였으며, 백엔드는 **Spring Boot 기반**으로 개발되었습습니다.
+프론트엔드는 **Android Studio**로 개발하였으며, 백엔드는 **Spring Boot 기반**으로 개발되었습니다.
 
 ---
 
@@ -13,7 +13,7 @@
 
 ---
 
-## ⚙️ 프로젝트 생성 정보(백엔드드)
+## ⚙️ 프로젝트 생성 정보(백엔드)
 
 - **생성 사이트**: [Spring Initializr](https://start.spring.io)
 - **빌드 도구**: Gradle - Groovy
@@ -36,7 +36,7 @@
 | Spring Data JPA | DB와 객체 매핑 (ORM) |
 | MySQL Driver | MySQL 데이터베이스 연동 |
 | Validation | 사용자 입력 검증 |
-| OAuth2 Client | 구글 로그인 연동동 |
+| OAuth2 Client | 구글 로그인 연동 |
 | Spring Security | (옵션) 사용자 인증 및 인가 처리 |
 
 ---
