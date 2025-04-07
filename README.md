@@ -1,2 +1,2 @@
 # GoyoHome_App
-Capstone Project
+프론트엔드
