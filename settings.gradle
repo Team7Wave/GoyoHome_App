@@ -19,5 +19,5 @@ dependencyResolutionManagement {
     }
 }
 
-rootProject.name = "GoYoHome_App"
+rootProject.name = "GoyoHome_App"
 include ':app'
