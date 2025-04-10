@@ -1,3 +1,5 @@
 <resources>
-    <string name="app_name">GoYoHome_App</string>
+    <string name="app_name">GOYO Home</string>
+    <string name="desc_settings">설정 아이콘</string>
+    <string name="desc_triangle">삼각형 아이콘</string>
 </resources>
