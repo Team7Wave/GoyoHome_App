@@ -13,8 +13,9 @@
         android:theme="@style/Theme.GoYoHome_App"
         tools:targetApi="31">
 
+        <!-- name에서 초기 화면 설정 가능 -->
         <activity
-            android:name=".MainActivity"
+            android:name=".AccountSettingActivity"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
