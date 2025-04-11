@@ -14,7 +14,7 @@ public class LoginActivity extends AppCompatActivity {
         setContentView(R.layout.activity_login);
 
         ImageView logo = findViewById(R.id.logo);
-        Animation fadeIn = AnimationUtils.loadAnimation(this, R.anim.fade_in);
+        Animation fadeIn = AnimationUtils.loadAnimation(this, R.anim.fade_in);   // 페이드인 효과
         logo.startAnimation(fadeIn);
     }
 }

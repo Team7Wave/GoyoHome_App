@@ -7,6 +7,7 @@
     android:background="@color/white"
     android:orientation="vertical" >
 
+    <!-- 로고 페이드 인 -->
     <ImageView
         android:id="@+id/logo"
         android:layout_width="300dp"
@@ -16,6 +17,7 @@
         android:src="@drawable/logo"
         android:contentDescription="@null"/>
 
+    <!-- 구글 로그인 버튼 -->
     <ImageButton
         android:id="@+id/google_button"
         android:layout_width="220dp"
@@ -23,4 +25,5 @@
         android:layout_gravity="center"
         android:background="@drawable/google_button"
         android:contentDescription="Sign in with Google"/>
+
 </LinearLayout>
