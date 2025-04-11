@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:background="#E9DFFC"
+    android:padding="20dp"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:gravity="center"
+    android:layout_gravity="center"
+    android:clipToPadding="false">
+
+    <!-- 입력창 박스 -->
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:background="#E3DFE7"
+        android:padding="12dp"
+        android:layout_marginBottom="16dp"
+        android:layout_marginTop="8dp">
+
+        <!-- 입력 필드 -->
+        <EditText
+            android:id="@+id/imeiEditText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="기기 번호"
+            android:minHeight="48dp"
+            android:background="@android:color/transparent"
+            android:paddingEnd="40dp"
+            android:textColor="#000000"
+            android:textSize="16sp"
+            android:inputType="text" />
+
+        <!-- X 버튼 -->
+        <ImageView
+            android:id="@+id/clearButton"
+            android:layout_width="24dp"
+            android:layout_height="24dp"
+            android:layout_alignParentEnd="true"
+            android:layout_centerVertical="true"
+            android:src="@android:drawable/ic_menu_close_clear_cancel"
+            android:contentDescription="지우기 버튼" />
+    </RelativeLayout>
+
+    <!-- 밑줄 -->
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="#000000"
+        android:layout_marginBottom="8dp"
+        android:layout_marginTop="-15dp"/>
+
+    <!-- 예 / 아니오 버튼 -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="end"
+        android:paddingEnd="4dp">
+
+        <TextView
+            android:id="@+id/btnYes"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="예"
+            android:textSize="16sp"
+            android:textColor="#6A1B9A"
+            android:padding="10dp"
+            android:layout_marginEnd="12dp" />
+
+        <TextView
+            android:id="@+id/btnNo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="아니오"
+            android:textSize="16sp"
+            android:textColor="#6A1B9A"
+            android:padding="10dp" />
+    </LinearLayout>
+</LinearLayout>
